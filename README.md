@@ -6,7 +6,7 @@ A complete machine learning pipeline for predicting car prices using multiple re
 
 **Project Title:** Car Price Prediction Pipeline
 **Objective:** Develop a robust regression model to estimate car prices using vehicle features.
-**Methodology:** The project implements a full ML pipeline including data cleaning, feature engineering (Target/One-Hot encoding), and a comparative analysis of 4 algorithms (Random Forest, XGBoost, Gradient Boosting, Ridge).
+**Methodology:** The project implements a full ML pipeline including data cleaning, feature engineering (Target/One-Hot encoding), and a comparative analysis of 5 algorithms (Linear Regression, Logistic Regression, KNN, Decision Tree, K-Means).
 **Outcome:** A trained model capable of predicting prices with evaluated accuracy metrics (RMSE, R²).
 
 ## Overview
@@ -15,17 +15,18 @@ This project implements a comprehensive ML workflow that:
 - Preprocesses and cleans automotive data
 - Engineers features from raw inputs
 - Applies multiple encoding strategies for categorical variables
-- Trains and compares 4 different regression models
+- Trains and compares 5 different machine learning models
 - Provides detailed evaluation metrics and visualizations
 
 ## Models Implemented
 
-| Model | Description |
-|-------|-------------|
-| **Random Forest** | Ensemble of decision trees with bagging |
-| **Gradient Boosting** | Sequential ensemble with boosting |
-| **XGBoost** | Optimized gradient boosting implementation |
-| **Ridge Regression** | Linear regression with L2 regularization |
+| Model | Type | Description |
+|-------|------|-------------|
+| **Linear Regression** | Regression | Baseline linear model for price prediction |
+| **Logistic Regression** | Classification | Classifies cars into Low/High price categories |
+| **K-Nearest Neighbors** | Regression | Instance-based learning for price prediction |
+| **Decision Tree** | Regression | Tree-based model for capturing non-linear patterns |
+| **K-Means** | Clustering | Unsupervised clustering to find natural groupings |
 
 ## Installation
 
