@@ -1,4 +1,4 @@
-# Car Price Prediction - ML Pipeline
+# Car Price Prediction (CarCast) - ML Pipeline
 
 A complete machine learning pipeline for predicting car prices using multiple regression models.
 
